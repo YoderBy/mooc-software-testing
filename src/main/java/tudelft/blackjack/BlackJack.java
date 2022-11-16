@@ -1,17 +1,17 @@
 package tudelft.blackjack;
 
 public class BlackJack {
-
-    public int play(int left, int right) {
-        int ln = left;
-        int rn = right;
-        if(ln > 21)
+//returns the hand closest to 21
+    public int play(int player1, int player2) {
+        int player1_hand = player1;
+        int player2_hand = player2;
+        if(player2_hand > 21)
             ln = 0;
-        if(rn > 21)
+        if(player1_hand > 21)
             rn = 0;
-        if(ln > rn)
-            return ln;
+        if(player1_hand > player2_hand)
+            return player1_hand;
         else
-            return rn;
+            return player2_hand;
     }
 }

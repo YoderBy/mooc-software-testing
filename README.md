@@ -1,8 +1,3 @@
-# Software Testing MOOC
-
-This repository contains the code examples and exercises of
-TU Delft's edX MOOC on Software Testing.
-
-## License
-
-This repository is licensed under CC BY-NC-SA.
+# Software Testing Demonstration
+This repository contains several Java classes and methods (in the main folder), 
+and appropriate unit tests (written using JUnit) in the tests folder.

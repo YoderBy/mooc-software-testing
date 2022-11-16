@@ -5,7 +5,7 @@ public class Invoice {
     private String customer;
     private double value;
 
-    public Invoice(String customer, double value) {
+    public Invoice(String customer, double value) {//constructor
         this.customer = customer;
         this.value = value;
     }

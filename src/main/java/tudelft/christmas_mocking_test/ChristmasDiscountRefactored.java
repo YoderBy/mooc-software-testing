@@ -1,12 +1,11 @@
 package tudelft.christmas;
-
 import java.util.Calendar;
 
-public class ChristmasDiscountRefactored {
+public class ChristmasDiscount {
 
-    private Clock clock;
+    private Clock clock;//clock is an interface, for creating a mock using mockito
 
-    public ChristmasDiscountRefactored(Clock clock) {
+    public ChristmasDiscount(Clock clock) {
         this.clock = clock;
     }
 

@@ -10,6 +10,11 @@ public class InvoiceFilter {
         InvoiceDao invoiceDao = new InvoiceDao();
         List<Invoice> allInvoices = invoiceDao.all();
 
+        
+        //testing if the connection to the database is real
+        // invoicefilter f = new invoicefilter
+        //invoiceDao invoiceDao = new InvoiceDao(); assure.inocivedao is not empty 
+
         List<Invoice> filtered = new ArrayList<>();
 
         for(Invoice inv : allInvoices) {
